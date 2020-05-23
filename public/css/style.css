@@ -1,0 +1,53 @@
+body{
+    font-family: arial;
+    color: #333333;
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 650px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+header{
+    
+    margin-top: 16px;
+    margin-bottom: 48 px;
+}
+
+footer{
+    border:#eeeeee 1px solid;
+    margin-top: 16px;
+    padding: 16px 0;
+    color: #888888;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: violet;
+    margin-top: 16px;
+    padding-right: 16px;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+input{
+    padding: 8px;
+    border: 1px solid #cccccc;
+}
+
+button{
+    cursor: pointer;
+    padding: 8px;
+    background: #888888 ;
+    border: 1px solid #888888;
+    color: white;
+}
