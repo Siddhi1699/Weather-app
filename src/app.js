@@ -52,23 +52,23 @@ app.get('/weather',(req,res) => {
 app.get('', (req,res) => {
     res.render('index',{
         title: 'Weather App',
-        name: 'Siddhi'
+        name: 'Siddhi Belgamwar'
     })
 })
 
 app.get('/about', (req,res) => {
     res.render('about',{
         title: 'About Weather',
-        name: 'Siddhi',
-        desc: 'This page is about weather'
+        name: 'Siddhi Belgamwar',
+        desc: 'This app provides weather forecast'
     })
 })
 
 app.get('/help', (req,res) => {
     res.render('help',{
         title: 'Weather help',
-        name: 'Siddhi',
-        desc: 'This page is for help'
+        name: 'Siddhi Belgamwar',
+        desc: 'Enter the location and click search for forecast.'
     })
 })
 

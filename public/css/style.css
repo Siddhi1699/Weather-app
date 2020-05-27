@@ -4,12 +4,14 @@ body{
     margin: 0 auto;
     padding: 0 16px;
     max-width: 650px;
+    position: relative;
 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 
 }
+
 
 header{
     
@@ -21,11 +23,16 @@ footer{
     border:#eeeeee 1px solid;
     margin-top: 16px;
     padding: 16px 0;
-    color: #888888;
+    color: black
 }
 h1{
     font-size: 64px;
     margin-bottom: 16px;
+    color: gray;
+}
+
+h3{
+    margin-top: 25%;
     color: gray;
 }
 a{
@@ -33,10 +40,13 @@ a{
     color: violet;
     margin-top: 16px;
     padding-right: 16px;
+    align-items: center;
 }
 
 .main-content{
     flex-grow: 1;
+    background-color: lavenderblush;
+    text-align: center;
 }
 
 input{
